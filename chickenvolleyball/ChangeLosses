@@ -1,0 +1,21 @@
+if (window.volleyGame.isActive) {
+  let person = prompt("Please choose the amount of losses you want. (THIS WON'T CHANGE YOUR LOSSES IN LEADERBOARD)", "4");
+  let text;
+
+  if (person == null || person == "") {
+    text = "User cancelled the prompt.";
+  } else {
+    let speed = parseInt(person);
+    if (!isNaN(speed)) {
+      // Set player speed to user input
+      window.volleyGame.myPlayerInfo.losses = speed
+      text = `Player losses set to ${speed}.`;
+    } else {
+      text = "Invalid input. Please enter a number.";
+    }
+  }
+
+  alert(text);
+} else {
+  alert("You must be in the game to change your losses.");
+}
