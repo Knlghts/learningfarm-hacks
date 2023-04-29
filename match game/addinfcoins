@@ -1,6 +1,6 @@
 if (confirm("To see your coins you must spend one coin")) {
   txt = "You pressed OK!";
- let n = window.tractorGame.coins;
+ let n = window.matchGame.coins;
 window.matchGame.coins = n + 1000; // Adds 10 coins to the existing value
 } else {
   txt = "You pressed Cancel!";
