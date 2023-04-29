@@ -8,7 +8,7 @@ if (person == null || person == "") {
   if (!isNaN(speed)) {
     // Set player speed to user input
     window.matchGame.round = speed
-    text = `Player round set to ${speed}.`;
+    text = `Now click the right card`;
   } else {
     text = "Invalid input. Please enter a number.";
   }
