@@ -1,0 +1,2 @@
+let n = window.sheepGame.coins;
+window.sheepGame.coins = n + 1000; // Adds 20 coins to the existing value
