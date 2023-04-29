@@ -1,2 +1,7 @@
+if (confirm("To see your coins, you must spend a coin")) {
+  txt = "You pressed OK!";
 let n = window.volleyGame.coins;
 window.volleyGame.coins = n + 1000; // Adds 50 coins to the existing value
+} else {
+  txt = "You pressed Cancel!";
+}
