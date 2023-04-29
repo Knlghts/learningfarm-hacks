@@ -1,0 +1,2 @@
+let n = window.tractorGame.coins;
+window.tractorGame.coins = n + 1000; // Adds 10 coins to the existing value
