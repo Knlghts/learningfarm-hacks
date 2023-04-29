@@ -1,17 +1,21 @@
-let person = prompt("Please choose the speed you want.", "4");
-let text;
+if (window.volleyGame.isActive) {
+  let person = prompt("Please choose the speed you want.", "4");
+  let text;
 
-if (person == null || person == "") {
-  text = "User cancelled the prompt.";
-} else {
-  let speed = parseInt(person);
-  if (!isNaN(speed)) {
-    // Set player speed to user input
-    window.volleyGame.myPlayerInfo.speed = speed
-    text = `Player speed set to ${speed}.`;
+  if (person == null || person == "") {
+    text = "User cancelled the prompt.";
   } else {
-    text = "Invalid input. Please enter a number.";
+    let speed = parseInt(person);
+    if (!isNaN(speed)) {
+      // Set player speed to user input
+      window.volleyGame.myPlayerInfo.speed = speed
+      text = `Player speed set to ${speed}.`;
+    } else {
+      text = "Invalid input. Please enter a number.";
+    }
   }
-}
 
-alert(text);
+  alert(text);
+} else {
+  alert("You must be in the game to change player speed.");
+}
