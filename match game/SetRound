@@ -1,1 +1,17 @@
-window.matchGame.round = 8
+let person = prompt("Please enter the round you want to be in.\n (MAX IS 8)", "4");
+let text;
+
+if (person == null || person == "") {
+  text = "User cancelled the prompt.";
+} else {
+  let speed = parseInt(person);
+  if (!isNaN(speed)) {
+    // Set player speed to user input
+    window.matchGame.round = speed
+    text = `Player round set to ${speed}.`;
+  } else {
+    text = "Invalid input. Please enter a number.";
+  }
+}
+
+alert(text);
