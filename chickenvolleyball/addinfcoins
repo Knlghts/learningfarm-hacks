@@ -1,0 +1,2 @@
+let n = window.volleyGame.coins;
+window.volleyGame.coins = n + 1000; // Adds 50 coins to the existing value
