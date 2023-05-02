@@ -11,4 +11,4 @@ function checkNextButton() {
   }
 }
 
-var intervalID = setInterval(checkNextButton, 1000);
+var intervalID = setInterval(checkNextButton, 100);
