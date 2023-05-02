@@ -1,4 +1,8 @@
 function checkNextButton() {
+  if (tf.gameObj.gameStart) {
+    return; // If tf.gameObj.isGame is true, exit the function immediately
+  }
+
   var nextButton = document.getElementById('nextButton');
 
   if (nextButton && nextButton.style.display === 'none') {
