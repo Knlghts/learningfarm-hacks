@@ -1,4 +1,7 @@
 // Noting these things for auto answer (coming soon maybe)?
+BUT auto answer is close to finish, theres one last thing i have to do which is finding the actual answer, im starting to think it's impossible but wish me luck lol
+i am a basic javascripter so everything takes time for me
 
 tf.nextClick(1) -- This hits the next button
+tf.ansClick() - clicks a answer, () should hit the correct ans
 
