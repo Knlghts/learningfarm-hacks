@@ -1,8 +1,10 @@
 function Autofarm() {
+ tf.gameObj.goGame();
     document.getElementById("oppCheckbox").checked = false
     window.volleyGame.optSelected(1)
     window.volleyGame.leftScore = 5
     window.volleyGame.gameOver();
+   
 }
 
 Autofarm();
