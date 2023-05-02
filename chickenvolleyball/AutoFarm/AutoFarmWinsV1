@@ -1,1 +1,17 @@
+function Autofarm() {
+  tf.gameObj.goGame();
+  setTimeout(function() {
+    document.getElementById("oppCheckbox").checked = false;
+  }, 500);
+  setTimeout(function() {
+    window.volleyGame.optSelected(1);
+  }, 3000);
+  setTimeout(function() {
+    window.volleyGame.leftScore = 5;
+  }, 4500);
+  setTimeout(function() {
+    window.volleyGame.gameOver();
+  }, 6000);
+}
 
+var intervalID = setInterval(Autofarm, 5000);
