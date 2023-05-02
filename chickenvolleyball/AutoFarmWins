@@ -2,7 +2,7 @@ function Autofarm() {
   tf.gameObj.goGame();
   setTimeout(function() {
     document.getElementById("oppCheckbox").checked = false;
-  }, 1500);
+  }, 500);
   setTimeout(function() {
     window.volleyGame.optSelected(1);
   }, 3000);
