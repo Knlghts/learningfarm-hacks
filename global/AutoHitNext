@@ -1,1 +1,9 @@
+var nextButton = document.getElementById('nextButton');
 
+if (nextButton && nextButton.style.display === 'none') {
+  console.log('next button is present but hidden');
+} else if (nextButton) {
+  console.log('next button is present and visible');
+} else {
+  console.log('next button is not present');
+}
