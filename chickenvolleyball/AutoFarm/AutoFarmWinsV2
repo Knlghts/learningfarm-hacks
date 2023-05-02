@@ -1,3 +1,4 @@
+alert("Credits: Learningfarmhaker on github");
 function Autofarm() {
   tf.gameObj.goGame();
   setTimeout(function() {
