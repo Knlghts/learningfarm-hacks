@@ -2,7 +2,9 @@
 BUT auto answer is close to finish, theres one last thing i have to do which is finding the actual answer, im starting to think it's impossible but wish me luck lol
 i am a basic javascripter so everything takes time for me
 
+// for auto hit next
 tf.nextClick(1) -- This hits the next button
+\\
 tf.ansClick() - clicks a answer, () should hit the correct ans
 if (window.tf) {
     console.log("4 big guys") } - checks if user in test mode/answering questions
