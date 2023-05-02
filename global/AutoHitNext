@@ -1,9 +1,14 @@
-var nextButton = document.getElementById('nextButton');
+function checkNextButton() {
+  var nextButton = document.getElementById('nextButton');
 
-if (nextButton && nextButton.style.display === 'none') {
-  console.log('next button is present but hidden');
-} else if (nextButton) {
-tf.nextClick(1)
-} else {
-  console.log('next button is not present');
+  if (nextButton && nextButton.style.display === 'none') {
+    console.log('next button is present but hidden');
+  } else if (nextButton) {
+    console.log('next button is present and visible');
+  } else {
+    console.log('next button is not present');
+    clearInterval(intervalID);
+  }
 }
+
+var intervalID = setInterval(checkNextButton, 1000);
