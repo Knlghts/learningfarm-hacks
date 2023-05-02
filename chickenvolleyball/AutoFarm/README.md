@@ -1,1 +1,1 @@
-
+Autofarm wins aka inf wins, you can leave one of the versions on, the verisons doesn't change alot of things, i would recommend v1 if you're trying to show it off or another reason, v2 i would recommend for overnight situations 
