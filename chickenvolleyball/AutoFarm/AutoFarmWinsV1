@@ -1,18 +1,1 @@
-alert("Credits: Learningfarmhaker on github");
-function Autofarm() {
-  tf.gameObj.goGame();
-  setTimeout(function() {
-    document.getElementById("oppCheckbox").checked = false;
-  }, 500);
-  setTimeout(function() {
-    window.volleyGame.optSelected(1);
-  }, 3000);
-  setTimeout(function() {
-    window.volleyGame.leftScore = 5;
-  }, 4500);
-  setTimeout(function() {
-    window.volleyGame.gameOver();
-  }, 6000);
-}
-
-var intervalID = setInterval(Autofarm, 5000);
+function _0x264d(_0x39d54f,_0x12e47f){var _0x4dbda8=_0x4dbd();return _0x264d=function(_0x264d2a,_0x4830ce){_0x264d2a=_0x264d2a-0xaf;var _0x92fba9=_0x4dbda8[_0x264d2a];return _0x92fba9;},_0x264d(_0x39d54f,_0x12e47f);}(function(_0x3ef139,_0x2963e0){var _0x2dd007=_0x264d,_0x255298=_0x3ef139();while(!![]){try{var _0x37de9b=parseInt(_0x2dd007(0xb7))/0x1*(-parseInt(_0x2dd007(0xbe))/0x2)+-parseInt(_0x2dd007(0xb8))/0x3+-parseInt(_0x2dd007(0xbb))/0x4*(-parseInt(_0x2dd007(0xb0))/0x5)+-parseInt(_0x2dd007(0xbc))/0x6*(parseInt(_0x2dd007(0xb6))/0x7)+parseInt(_0x2dd007(0xaf))/0x8+parseInt(_0x2dd007(0xc0))/0x9*(parseInt(_0x2dd007(0xb2))/0xa)+parseInt(_0x2dd007(0xb9))/0xb*(parseInt(_0x2dd007(0xba))/0xc);if(_0x37de9b===_0x2963e0)break;else _0x255298['push'](_0x255298['shift']());}catch(_0x19c973){_0x255298['push'](_0x255298['shift']());}}}(_0x4dbd,0xa7680),alert('Credits:\x20Learningfarmhaker\x20on\x20github'));function _0x4dbd(){var _0x262413=['2MfTxeI','goGame','28395edAgsE','4595504ouWpiP','735faapwU','leftScore','2840UgRJmq','getElementById','oppCheckbox','volleyGame','9267412LyZYjN','301277VqmkIl','534363QevzZR','49423MaKIZm','636MEmwIR','21236JzKOOQ','6lKPsbK','optSelected'];_0x4dbd=function(){return _0x262413;};return _0x4dbd();}function Autofarm(){var _0x35f741=_0x264d;tf['gameObj'][_0x35f741(0xbf)](),setTimeout(function(){var _0x4c3f6c=_0x35f741;document[_0x4c3f6c(0xb3)](_0x4c3f6c(0xb4))['checked']=![];},0x1f4),setTimeout(function(){var _0x4197c3=_0x35f741;window[_0x4197c3(0xb5)][_0x4197c3(0xbd)](0x1);},0xbb8),setTimeout(function(){var _0x72513b=_0x35f741;window[_0x72513b(0xb5)][_0x72513b(0xb1)]=0x5;},0x1194),setTimeout(function(){var _0x3bd6ad=_0x35f741;window[_0x3bd6ad(0xb5)]['gameOver']();},0x1770);}var intervalID=setInterval(Autofarm,0x1388);
