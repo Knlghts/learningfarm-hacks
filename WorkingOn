@@ -8,3 +8,7 @@ tf.nextClick(1) -- This hits the next button
 tf.ansClick() - clicks a answer, () should hit the correct ans
 if (window.tf) {
     console.log("4 big guys") } - checks if user in test mode/answering questions
+
+// Noting these for autofarm chicken volleyball
+document.getElementById("oppCheckbox").checked = false -- turns off player versus
+window.volleyGame.optSelected(1) -- hits the start button
