@@ -1,1 +1,5 @@
+if (window.hayGame.isActive) {
 window.hayGame.birdState = 0
+} else {
+alert("You must be in game to use this")
+}
