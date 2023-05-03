@@ -1,0 +1,5 @@
+if (window.sheepGame.isActive) {
+window.sheepGame.mySheep.shieldDelay = 0
+} else {
+alert("You must be in game to use this")
+}
