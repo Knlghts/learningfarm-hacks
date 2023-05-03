@@ -3,7 +3,7 @@ if (window.sheepGame.isActive) {
     if (window.sheepGame.mySheep.health !== 4) {
       window.sheepGame.mySheep.health = 4;
     }
-  }, 500);
+  }, 100);
 } else {
   alert("You must be in the game to use this!");
 }
