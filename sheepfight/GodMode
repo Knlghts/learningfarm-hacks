@@ -1,5 +1,0 @@
-if (window.sheepGame.isActive) {
-  window.MAXHEALTH = 100;
-} else {
-  alert("You must be in the game to become god mode.");
-}
