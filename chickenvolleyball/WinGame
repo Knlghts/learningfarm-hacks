@@ -1,1 +1,7 @@
-
+if (window.volleyGame.myPlayerInfo.pSide === -1) {
+  alert("You must be in game to use this.");
+} else if (window.volleyGame.myPlayerInfo.pSide === 0) {
+  window.volleyGame.leftScore = 5
+} else if (window.volleyGame.myPlayerInfo.pSide === 1) {
+  window.volleyGame.rightScore = 5
+}
