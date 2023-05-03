@@ -1,7 +1,9 @@
-if (window.sheepGame.isActive) {
-  if (window.sheepGame.mySheep.health !== 3) {
-    window.sheepGame.mySheep.health = 3;
+setInterval(() => {
+  if (window.sheepGame.isActive) {
+    if (window.sheepGame.mySheep.health !== 3) {
+      window.sheepGame.mySheep.health = 3;
+    }
+  } else {
+    alert("You must be in the game to use this!");
   }
-} else {
-  alert("You must be in the game to use this!");
-}
+}, 1000);
