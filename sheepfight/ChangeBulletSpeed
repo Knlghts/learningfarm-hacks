@@ -1,1 +1,21 @@
-window.sheepGame.mySheep.bulletSpeed = 100
+if (window.sheepGame.isActive) {
+  let person = prompt("Please choose the bullet speed you want.", "5.215");
+  let text;
+
+  if (person == null || person == "") {
+    text = "User cancelled the prompt.";
+  } else {
+    let speed = parseInt(person);
+    if (!isNaN(speed)) {
+      // Set player speed to user input
+     window.sheepGame.mySheep.bulletSpeed = speed
+      text = `Player speed set to ${speed}.`;
+    } else {
+      text = "Invalid input. Please enter a number.";
+    }
+  }
+
+  alert(text);
+} else {
+  alert("You must be in the game to change bullet speed.");
+}
