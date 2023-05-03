@@ -1,1 +1,5 @@
+if (window.hayGame.isActive) {
 PLAY_TM = 1000000000000000
+} else {
+alert("You must be in game to use this")
+}
