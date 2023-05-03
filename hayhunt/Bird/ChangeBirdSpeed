@@ -1,26 +1,27 @@
+function setPlayerSpeed(speed) {
+  if (!isNaN(speed)) {
+    // Check if bird max speed matches user input
+    if (window.hayGame.myBird.maxSpeed !== speed) {
+      // Set player speed to user input
+      window.hayGame.myBird.maxSpeed = speed;
+      console.log(`Bird speed set to ${speed}.`);
+    } else {
+      console.log(`Bird speed already set to ${speed}.`);
+    }
+  } else {
+    console.log("Invalid input. Please enter a number.");
+  }
+}
+
 if (window.hayGame.isActive) {
-  let person = prompt("Please choose the speed you want.", "0.9");
-  let text;
+  let person = prompt("Please choose the bird speed you want.", "0.9");
 
   if (person == null || person == "") {
-    text = "User cancelled the prompt.";
+    console.log("User cancelled the prompt.");
   } else {
     let speed = parseInt(person);
-    if (!isNaN(speed)) {
-      // Check if bird max speed matches user input
-      if (window.hayGame.myBird.maxSpeed !== speed) {
-        // Set player speed to user input
-        window.hayGame.myBird.maxSpeed = speed;
-        text = `Player speed set to ${speed}.`;
-      } else {
-        text = `Player speed already set to ${speed}.`;
-      }
-    } else {
-      text = "Invalid input. Please enter a number.";
-    }
+    setPlayerSpeed(speed);
   }
-
-  alert(text);
 } else {
-  alert("You must be in the game to change bird speed.");
+  console.log("You must be in the game to change bird speed.");
 }
