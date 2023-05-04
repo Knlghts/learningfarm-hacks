@@ -9,3 +9,8 @@ tf.ansClick() - clicks a answer, () should hit the correct ans
 if (window.tf) {
     console.log("4 big guys") } - checks if user in test mode/answering questions
 
+// noting these down for sheepgame AIMBOT
+for (var oppName in sheepGame.opps) {
+  var oppSheep = sheepGame.opps[oppName];
+  sheepGame.mySheep.angle = oppSheep.angle;
+} -- this changes your sheep angle towards your opp angle
