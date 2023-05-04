@@ -1,0 +1,2 @@
+window.hayGame.myTractor.totBales = 1000
+window.hayGame.setScore();
