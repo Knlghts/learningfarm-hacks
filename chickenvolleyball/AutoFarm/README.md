@@ -1,3 +1,5 @@
-Autofarm wins aka inf wins, you can leave one of the versions on, the verisons doesn't change alot of things, i would recommend v1 if you're trying to show it off or another reason but V1 is more buggy than v2.
+Autofarm wins aka inf wins
+YOU MUST BE IN THE TAB IN ORDER FOR AUTOFARM TO WORK
 
-
+V1 is the free verison, not as fast as v2, v1 have bugs while v2 does not.
+V2 is only for myself and friends
