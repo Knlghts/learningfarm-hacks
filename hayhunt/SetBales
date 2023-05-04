@@ -1,2 +1,23 @@
-window.hayGame.myTractor.totBales = 1000
-window.hayGame.setScore();
+
+if (window.hayGame.isActive) {
+  let person = prompt("Please choose the amount of bales you want.", window.hayGame.myTractor.totBales);
+  let text;
+
+  if (person == null || person == "") {
+    text = "User cancelled the prompt.";
+  } else {
+    let speed = parseInt(person);
+    if (!isNaN(speed)) {
+      // Set player speed to user input
+     window.hayGame.myTractor.totBales = speed
+     window.hayGame.setScore();
+      text = `Player bales set to ${speed}. THIS ACTUALLY SAVES SO ENJOY`;
+    } else {
+      text = "Invalid input. Please enter a number.";
+    }
+  }
+
+  alert(text);
+} else {
+  alert("You must be in the game to change player bales.");
+}
