@@ -1,4 +1,0 @@
-for (var oppName in hayGame.opps) {
-  var oppTractor = hayGame.opps[oppName];
-  oppTractor.dropBale();
-}
